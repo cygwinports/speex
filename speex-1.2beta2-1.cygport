@@ -1,0 +1,11 @@
+DESCRIPTION="Xiph Speex speech codec library"
+HOMEPAGE="http://www.vorbis.com/"
+SRC_URI="http://downloads.xiph.org/releases/${PN}/${P}.tar.gz"
+
+abi=1
+# FIXME: libspeex-devel
+PKG_NAMES="${PN} lib${PN}${abi} ${PN}-devel"
+PKG_HINTS="setup lib devel"
+PKG_CONTENTS[0]='usr/bin/*.exe usr/share/doc/ usr/share/man/'
+PKG_CONTENTS[1]="usr/bin/cyg${PN}-${abi}.dll"
+PKG_CONTENTS[2]='usr/include/ usr/lib/ usr/share/aclocal/'

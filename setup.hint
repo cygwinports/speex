@@ -1,0 +1,7 @@
+category: Audio
+requires: cygwin libspeex1 libogg0
+sdesc: "Xiph.org speech audio codec (utilities)"
+ldesc: "Speex is an Open Source/Free Software patent-free audio 
+compression format designed for speech. Moreover, Speex is well-adapted 
+to Internet applications and provides useful features that are not 
+present in most other codecs."
